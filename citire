@@ -1,2 +1,4 @@
 printf("Introduceti coordonatele:");
-scanf(" %c %c",&a,&b);
+c=getch();
+while(c!='\n')
+c=getch();
